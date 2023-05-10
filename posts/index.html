@@ -2,9 +2,10 @@
 layout: page
 title: Posts
 background: '/img/bg-post.jpg'
+permalink: /posts/
 ---
-
-{% for post in paginator.posts %}
+<p><h3>All the posts are located on the Home page.</h3></p>
+{% for post in paginator._posts %}
 
 <article class="post-preview">
   <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
