@@ -36,8 +36,7 @@ github_username:  jekyll
 theme: jekyll-theme-clean-blog
 plugins:
   - jekyll-feed
-  - jekyll-paginate
-
+ 
 paginate: 5
 # Exclude from processing.
 # The following items will not be processed, by default.
